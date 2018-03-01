@@ -1,0 +1,6 @@
+<div ng-app="sideMenuDirective" ng-controller="sideMenuController">
+  <div class="menu side-menu">
+    <select id="selectMode" ng-model="menuOption" ng-change="onChange()" md-on-open="onOpen()" ng-options="template.value as template.name for template in feed.configs">
+    </select>
+  </div>
+</div>

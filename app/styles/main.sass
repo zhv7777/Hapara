@@ -1,0 +1,75 @@
+@import  'variables'
+
+body
+  margin: 0
+  padding: 0
+  background-color: $mainBodyColor
+  font-family: "Open Sans"
+
+.top-nav-container
+  background-color: $topNavColor
+  height: 60px
+
+
+.logo-container
+    padding: 18px
+    float: left
+    img:hover
+      opacity: 0.5
+
+.menu
+  color: $menuFontMainColor
+  list-style: none
+
+
+.top-menu
+  display: inline-flex
+  cursor: pointer
+  margin-left: -25px
+  @media screen and (max-width: $mobile)
+    display: block
+    padding-top: 60px
+  li
+    padding-right: 15px
+  li.active
+    color: white
+
+
+
+
+.side-menu
+  position: absolute
+  right: 5px
+  top: 20px
+  select:hover
+    color: white
+
+select
+  background-color: $topNavColor
+  border: none
+  color: $menuFontMainColor
+  font-size: 14px
+  :hover
+    color: white
+
+select:focus
+  outline: none
+.side-menu
+  select:hover
+    option
+      background: white
+      color: $menuFontMainColor
+
+.side-menu
+  select
+    width: 100%
+    padding-right: 35px
+    background: url("assets/images/icon-arrow.svg") no-repeat
+    background-size: 12px
+    background-position:  right 10px center
+    padding-left: 24px
+    -webkit-appearance: none
+    -moz-appearance: none
+    -webkit-border-radius: 4px
+       -moz-border-radius: 4px
+            border-radius: 4px

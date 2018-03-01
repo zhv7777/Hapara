@@ -1,0 +1,7 @@
+<div ng-app="topMenuDirective" ng-controller="topMenuController">
+  <ul class="menu top-menu">
+    <li ng-repeat="option in topMenuOptions" ng-show="option.name == 'Classes' || option.level == assessLevel" ng-mouseover="menuHover()" ng-mouseleave="menuNoHover()" class="{{ option.active == true || option.name =='Classes'? 'active': 'not-active'}}">
+      {{ option.name }}
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,48 @@
+{
+  "name": "frontend-exercise",
+  "version": "1.0.0",
+  "description": "Exercise for Hapara",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000 -c-1 ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhv7777/Hapara.git"
+  },
+  "keywords": [
+    "hapara"
+  ],
+  "author": "Victoria Zharkova",
+  "license": "ISC",
+  "homepage": "https://github.com/zhv7777/Hapara.git",
+  "dependencies": {
+    "angularjs": "0.0.1",
+    "bower": "^1.8.2",
+    "gulp": "latest",
+    "http-server": "^0.11.1",
+    "node-modules": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "angular": "^1.6.9",
+    "angular-mocks": "^1.6.9",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "jasmine-core": "~2.8.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "jquery": "^3.2.1",
+    "karma": "~2.0.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2"
+  }
+}
